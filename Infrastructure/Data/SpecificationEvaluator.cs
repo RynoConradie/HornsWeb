@@ -10,7 +10,7 @@ namespace Infrastructure.Data
 {
     public class SpecificationEvaluator<TEntiry> where TEntiry : BaseEntity
     {
-        public static IQueryable<TEntiry> GetQuary(IQueryable<TEntiry> inputQuary, ISpecification<TEntiry> spec)
+        public static IQueryable<TEntiry> GetQuery(IQueryable<TEntiry> inputQuary, ISpecification<TEntiry> spec)
         {
             var quary = inputQuary;
 
