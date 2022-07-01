@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Core.Entities;
-using Core.Specification;
+using Core.Specifications;
 
 namespace Core.Interfaces
 {

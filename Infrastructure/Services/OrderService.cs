@@ -74,4 +74,4 @@ namespace Infrastructure.Services
             return await _unitOfWork.Repository<Order>().ListAsync(spec);
         }
     }
-} 
+}

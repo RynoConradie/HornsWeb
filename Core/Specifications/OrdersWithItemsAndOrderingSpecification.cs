@@ -1,11 +1,10 @@
 using System;
 using System.Linq.Expressions;
 using Core.Entities.OrderAggregate;
-using Core.Specification;
 
 namespace Core.Specifications
 {
-    public class OrdersWithItemsAndOrderingSpecification : BaseSpecification<Order>
+    public class OrdersWithItemsAndOrderingSpecification : BaseSpecifcation<Order>
     {
         public OrdersWithItemsAndOrderingSpecification(string email) : base(o => o.BuyerEmail == email)
         {
